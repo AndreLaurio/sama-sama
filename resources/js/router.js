@@ -10,9 +10,9 @@ const routes = [
         component: () => import("./views/404")
     },
     {
-        path: "/test",
-        name: "test",
-        component: () => import("./components/ExampleComponent")
+        path: "/",
+        name: "Index",
+        component: () => import("./views/Index")
     }
 ];
 

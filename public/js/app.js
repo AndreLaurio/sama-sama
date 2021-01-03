@@ -98997,13 +98997,13 @@ var routes = [{
   path: "*",
   name: "404",
   component: function component() {
-    return __webpack_require__.e(/*! import() */ 1).then(__webpack_require__.bind(null, /*! ./views/404 */ "./resources/js/views/404.vue"));
+    return __webpack_require__.e(/*! import() */ 0).then(__webpack_require__.bind(null, /*! ./views/404 */ "./resources/js/views/404.vue"));
   }
 }, {
-  path: "/test",
-  name: "test",
+  path: "/",
+  name: "Index",
   component: function component() {
-    return __webpack_require__.e(/*! import() */ 0).then(__webpack_require__.bind(null, /*! ./components/ExampleComponent */ "./resources/js/components/ExampleComponent.vue"));
+    return __webpack_require__.e(/*! import() */ 1).then(__webpack_require__.bind(null, /*! ./views/Index */ "./resources/js/views/Index.vue"));
   }
 }];
 var router = new vue_router__WEBPACK_IMPORTED_MODULE_1__["default"]({
